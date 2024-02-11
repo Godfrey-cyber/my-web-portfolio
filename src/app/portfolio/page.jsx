@@ -83,8 +83,25 @@ const PortfolioPage = () => {
           </motion.div>
         </div>
       </div>
+
       <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center">
         <h1 className="text-8xl">Do you have a project?</h1>
+        <div>
+	      <iframe
+	        width="860"
+	        height="484"
+	        src="https://youtu.be/ggLoW97PcpI?si=IJ4Y4VAfgeWkFMZg"
+	        title="Milestone 8 project video"
+	        frameborder="0"
+	        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+	        allowfullscreen
+	      ></iframe>
+    </div>
+    <div className="">
+    	<Link href="https://docs.google.com/presentation/d/1oOtSHi_V-NFsWFDRfiJie5eOph6hZq0zXNtfybmvsRU/edit#slide=id.p">
+    		<button className="p-1 text-sm md:p-1.5 md:text-md lg:p-2 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">See Slide Deck</button>
+    	</Link>
+    </div>
         <div className="relative">
           <motion.svg
             animate={{ rotate: 360 }}
