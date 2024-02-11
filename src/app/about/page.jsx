@@ -31,7 +31,7 @@ const AboutPage = () => {
           <div className="flex flex-col gap-12 justify-center">
             {/* BIOGRAPHY IMAGE */}
             <Image
-              src="https://photos.app.goo.gl/5gfscXvNpSrLt9WWA"
+              src="/Godfrey.jpg "
               alt=""
               width={112}
               height={112}
@@ -41,7 +41,7 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-              Welcome to the digital frontier, where creativity meets code and imagination transforms into pixels. I'm Godfrey Ndiritu, your guide through the boundless world of web development. Let's embark on a journey where innovation knows no bounds and every line of code shapes tomorrow's digital landscape
+              Welcome to the digital frontier, where creativity meets code and imagination transforms into pixels. I am Godfrey Ndiritu, your guide through the boundless world of web development. Let us embark on a journey where innovation knows no bounds and every line of code shapes tomorrow&apos s digital landscape
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
