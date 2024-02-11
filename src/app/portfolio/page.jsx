@@ -56,6 +56,21 @@ const PortfolioPage = () => {
         <div className="w-screen h-[calc(100vh-6rem)] flex items-center justify-center text-8xl text-center">
           My Works
         </div>
+        <iframe
+	        width="860"
+	        height="484"
+	        src="https://youtu.be/ggLoW97PcpI?si=IJ4Y4VAfgeWkFMZg"
+	        title="Milestone 8 project video"
+	        frameborder="0"
+	        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+	        allowfullscreen
+	      ></iframe>
+    </div>
+    <div className="">
+    	<Link href="https://docs.google.com/presentation/d/1oOtSHi_V-NFsWFDRfiJie5eOph6hZq0zXNtfybmvsRU/edit#slide=id.p">
+    		<button className="p-1 text-sm md:p-1.5 md:text-md lg:p-2 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">See Slide Deck</button>
+    	</Link>
+    </div>
         <div className="sticky top-0 flex h-screen gap-4 items-center overflow-hidden">
           <motion.div style={{ x }} className="flex">
             <div className="h-screen w-screen flex items-center justify-center bg-gradient-to-r from-purple-300 to-red-300" />
