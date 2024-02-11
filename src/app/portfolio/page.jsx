@@ -57,8 +57,8 @@ const PortfolioPage = () => {
           My Works
         </div>
         <iframe
-	        width="860"
-	        height="484"
+	        width="400"
+	        height="284"
 	        src="https://youtu.be/ggLoW97PcpI?si=IJ4Y4VAfgeWkFMZg"
 	        title="Milestone 8 project video"
 	        frameborder="0"
