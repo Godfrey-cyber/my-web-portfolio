@@ -32,10 +32,10 @@ const Homepage = () => {
           </p>
           {/* BUTTONS */}
           <div className="w-full flex gap-4">
-            <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
-              View My Work
+            <button className="px-2 py-.5 rounded-lg ring-1 ring-black bg-black text-white">
+              My Work
             </button>
-            <button className="p-4 rounded-lg ring-1 ring-black">
+            <button className="px-2 py-.5 rounded-lg ring-1 ring-black">
               Contact mastery
             </button>
             

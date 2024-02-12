@@ -81,10 +81,45 @@ const PortfolioPage = () => {
               </div>
             ))}
           </motion.div>
+          <div>
+		      <iframe
+		        width="860"
+		        height="484"
+		        src="https://youtu.be/ggLoW97PcpI?si=IJ4Y4VAfgeWkFMZg"
+		        title="Introduction To WiseGPT"
+		        frameborder="0"
+		        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+		        allowfullscreen
+		      ></iframe>
+    	  </div>
         </div>
       </div>
-      <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center">
-        <h1 className="text-8xl">Do you have a project?</h1>
+      <div className="w-screen h-max flex flex-col gap-16 items-center justify-center text-center">
+        <h1 className="text-4xl">Do you have a project?</h1>
+        <div className="my-2 mx-auto">
+		      <iframe
+		        width="860"
+		        height="484"
+		        src="https://www.youtube.com/watch?si=IJ4Y4VAfgeWkFMZg&v=ggLoW97PcpI&feature=youtu.be"
+		        title="Milestone 9 video"
+		        frameborder="0"
+		        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+		        allowfullscreen
+		      ></iframe>
+		      <p className="text-lg font-normal text-gray-600 my-2">Team Project video</p>
+    	  </div>
+    	  <div className="my-2 mx-auto">
+		      <iframe
+		        width="860"
+		        height="484"
+		        src="https://www.youtube.com/watch?v=DJaZUFK8Kv4&t=656s"
+		        title="Milestone 9 video"
+		        frameborder="0"
+		        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+		        allowfullscreen
+		      ></iframe>
+		      <p className="text-lg font-normal text-gray-600 my-2">My elevator pitch</p>
+    	  </div>
         <div className="relative">
           <motion.svg
             animate={{ rotate: 360 }}
