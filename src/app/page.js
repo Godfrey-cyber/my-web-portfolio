@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import Link from 'next/link'
+import Link from "next/link"
 import { motion } from "framer-motion";
 
 const Homepage = () => {
@@ -38,12 +38,7 @@ const Homepage = () => {
             <button className="p-4 rounded-lg ring-1 ring-black">
               Contact mastery
             </button>
-            <button className="p-4 rounded-lg ring-1 ring-black">
-              See Slide Deck 
-            </button>
-            <button className="p-4 rounded-lg ring-1 ring-black">
-              See Slide Deck 
-            </button>
+            
             <Link href="https://docs.google.com/presentation/d/1oOtSHi_V-NFsWFDRfiJie5eOph6hZq0zXNtfybmvsRU/edit#slide=id.p">
               <button className="p-1 text-sm md:p-1.5 md:text-md lg:p-2 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">See Slide Deck</button>
             </Link>
