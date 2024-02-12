@@ -31,7 +31,7 @@ const AboutPage = () => {
           <div className="flex flex-col gap-12 justify-center">
             {/* BIOGRAPHY IMAGE */}
             <Image
-              src="/Godfrey.jpg "
+              src="/Godfrey.jpg"
               alt=""
               width={112}
               height={112}
@@ -306,6 +306,9 @@ const AboutPage = () => {
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
                     2010 - 2019{" "}
+                  </div>
+                  <div className="">
+                    <p className="text-6xl font-bold">Hello</p>
                   </div>
                 </div>
                 {/* CENTER */}
