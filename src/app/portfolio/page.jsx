@@ -56,21 +56,6 @@ const PortfolioPage = () => {
         <div className="w-screen h-[calc(100vh-6rem)] flex items-center justify-center text-8xl text-center">
           My Works
         </div>
-        <iframe
-	        width="400"
-	        height="284"
-	        src="https://youtu.be/ggLoW97PcpI?si=IJ4Y4VAfgeWkFMZg"
-	        title="Milestone 8 project video"
-	        frameborder="0"
-	        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-	        allowfullscreen
-	      ></iframe>
-    </div>
-    <div className="">
-    	<Link href="https://docs.google.com/presentation/d/1oOtSHi_V-NFsWFDRfiJie5eOph6hZq0zXNtfybmvsRU/edit#slide=id.p">
-    		<button className="p-1 text-sm md:p-1.5 md:text-md lg:p-2 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">See Slide Deck</button>
-    	</Link>
-    </div>
         <div className="sticky top-0 flex h-screen gap-4 items-center overflow-hidden">
           <motion.div style={{ x }} className="flex">
             <div className="h-screen w-screen flex items-center justify-center bg-gradient-to-r from-purple-300 to-red-300" />
@@ -79,18 +64,18 @@ const PortfolioPage = () => {
                 className={`h-screen w-screen flex items-center justify-center bg-gradient-to-r ${item.color}`}
                 key={item.id}
               >
-                <div className="flex flex-col gap-4 text-white">
-                  <h1 className="text-lg font-bold md:text-sm lg:text-xl xl:text-2xl">
+                <div className="flex flex-col gap-8 text-white">
+                  <h1 className="text-sm font-bold md:text-lg lg:text-xl xl:text-2xl">
                     {item.title}
                   </h1>
-                  <div className="relative w-96 h-56 md:w-96 md:h-64 lg:w-[500px] lg:h-[350px] xl:w-[600px] xl:h-[420px]">
+                  <div className="relative w-80 h-56 md:w-96 md:h-64 lg:w-[500px] lg:h-[350px] xl:w-[600px] xl:h-[420px]">
                     <Image src={item.img} alt="" fill />
                   </div>
                   {/*<p className="w-80 md:w96 lg:w-[500px] lg:text-lg xl:w-[600px]">
                     {item.desc}
                   </p>*/}
                   <Link href={item.link} className="flex justify-end">
-                    <button className="p-1 text-sm md:p-1.5 md:text-md lg:p-2 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">See Demo</button>
+                    <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">See Demo</button>
                   </Link>
                 </div>
               </div>
@@ -98,25 +83,8 @@ const PortfolioPage = () => {
           </motion.div>
         </div>
       </div>
-
       <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center">
         <h1 className="text-8xl">Do you have a project?</h1>
-        <div>
-	      <iframe
-	        width="860"
-	        height="484"
-	        src="https://youtu.be/ggLoW97PcpI?si=IJ4Y4VAfgeWkFMZg"
-	        title="Milestone 8 project video"
-	        frameborder="0"
-	        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-	        allowfullscreen
-	      ></iframe>
-    </div>
-    <div className="">
-    	<Link href="https://docs.google.com/presentation/d/1oOtSHi_V-NFsWFDRfiJie5eOph6hZq0zXNtfybmvsRU/edit#slide=id.p">
-    		<button className="p-1 text-sm md:p-1.5 md:text-md lg:p-2 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">See Slide Deck</button>
-    	</Link>
-    </div>
         <div className="relative">
           <motion.svg
             animate={{ rotate: 360 }}
@@ -132,7 +100,7 @@ const PortfolioPage = () => {
             </defs>
             <text fill="#000">
               <textPath xlinkHref="#circlePath" className="text-xl">
-                Front-end React Developer and UI Designer
+                Front-end Developer and UI Designer
               </textPath>
             </text>
           </motion.svg>
