@@ -307,9 +307,6 @@ const AboutPage = () => {
                   <div className="p-3 text-red-400 text-sm font-semibold">
                     2010 - 2019{" "}
                   </div>
-                  <div className="">
-                    {/*<p className="text-6xl font-bold">Hello</p>*/}
-                  </div>
                 </div>
                 {/* CENTER */}
                 <div className="w-1/6 flex justify-center">
